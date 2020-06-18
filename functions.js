@@ -61,10 +61,6 @@ localStorage.setItem('myInput', myInput);
 
 }
 
-if(localStorage.myInput){
-  document.getElementBId('myInput').value = localStorage.myInput;
-}
-
 // MOSTRA AVISO
 
 function alertaAviso() {
