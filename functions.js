@@ -62,7 +62,7 @@ localStorage.setItem('myInput', myInput);
 }
 
 if(localStorage.myInput){
-  document.getElementById('myInput').value = localStorage.myInput;
+  document.getElementBId('myInput').value = localStorage.myInput;
 }
 
 // MOSTRA AVISO
